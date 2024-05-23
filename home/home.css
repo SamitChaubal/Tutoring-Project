@@ -1,0 +1,31 @@
+.topnav {
+    background-color: inherit;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .topnav div:not(.dropdown-content) {
+    float: left;
+  }
+  
+  .topnav a:hover:not(a.active, button.active.dropdown-button),
+   
+  .topnav button:hover:not(a.active, button.active.dropdown-button) {
+    background-color: #aeaeae;
+    color: black;
+  }
+  
+  .topnav a, .dropdown-content a, .dropdown-button{
+    font-size: 1.5vw;
+  }
