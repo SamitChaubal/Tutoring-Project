@@ -1,0 +1,20 @@
+/* Style for the chat bot container */
+.chat-bot-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+/* Style for the text inside the chat bot container */
+.chat-bot-text {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Style for left-aligned elements */
+.left-align {
+    text-align: left;
+}
