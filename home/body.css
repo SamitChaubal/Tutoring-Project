@@ -1,11 +1,4 @@
-.logo{
-    width: 55px;
-    height: 55px;
-    float: left;
-    display: block;
-    padding-left: 2%;
-    padding-right: 15%;
-}
+
     /* Style for the chat bot container */
 .chat-bot-container {
     background-color: #ffffff;
