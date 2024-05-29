@@ -1,4 +1,6 @@
-
+body{
+    margin-top:9%;
+}
     /* Style for the chat bot container */
 .chat-bot-container {
     background-color: #ffffff;
