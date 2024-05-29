@@ -22,7 +22,11 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav{
-  border-bottom: none;
+  position:fixed;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
 }
 .topnav a:hover:not(a.active),
 
