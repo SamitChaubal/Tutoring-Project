@@ -2,7 +2,7 @@ body{
     margin-top:9%;
 }
     /* Style for the chat bot container */
-.chat-bot-container {
+.mission-container {
     background-color: #ffffff;
     border: 3px solid #1a128f;
     border-radius: 10px;
@@ -12,12 +12,13 @@ body{
 }
 
 /* Style for the text inside the chat bot container */
-.chat-bot-text {
+.mission-heading {
     color: #333;
-    font-size: 16px;
+    font-size: 3vw;
 }
 
 /* Style for left-aligned elements */
-.left-align {
+.subjects-text li{
+    font-size: 1vw;
     text-align: left;
 }
