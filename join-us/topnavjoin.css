@@ -28,9 +28,6 @@
   width: 100%;
   top: 0;
 }
-.topnav a:hover:not(a.active),
-
-.topnav button:hover:not(a.active, ) {
-  background-color: #aeaeae;
-  color: black;
+.topnav a.active {
+  text-decoration: underline;
 }
