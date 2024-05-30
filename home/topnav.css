@@ -1,9 +1,13 @@
-.topnav {
+
+.topnav{
+  position:fixed;
   background-color: #ffffff;
   overflow: hidden;
   width: 100%;
+  top: 0;
+  left: 0;
 }
-.logo{
+nav .logo{
   width: 3.5vw;
   height: 3.5vw;
   float: left;
@@ -21,13 +25,7 @@
   font-size: 1.5vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.topnav{
-  position:fixed;
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 100%;
-  top: 0;
-}
+
 .topnav a:hover:not(a.active),
 
 .topnav button:hover:not(a.active, ) {
