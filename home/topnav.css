@@ -4,8 +4,8 @@
   width: 100%;
 }
 .logo{
-  width: 5vw;
-  height: 5vw;
+  width: 3.5vw;
+  height: 3.5vw;
   float: left;
   display: block;
   padding-left: 2%;
@@ -18,7 +18,7 @@
   color: rgb(0, 0, 0);
   padding: 2% 2%;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav{
