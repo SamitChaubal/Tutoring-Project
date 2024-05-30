@@ -3,29 +3,34 @@
   overflow: hidden;
   width: 100%;
 }
-
+.logo{
+  width: 3.5vw;
+  height: 3.5vw;
+  float: left;
+  display: block;
+  padding-left: 2%;
+  padding-right: 15%;
+  padding-top:1%;
+}
 .topnav a {
   float: right;
   display: block;
   color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
+  padding: 2% 2%;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav{
-  border-bottom: 2px solid black;
+  position:fixed;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
 }
 .topnav a:hover:not(a.active),
 
 .topnav button:hover:not(a.active, ) {
   background-color: #aeaeae;
   color: black;
-}
-
-.topnav a,
-.dropdown-content a,
-.dropdown-button {
-  font-size: 1.5vw;
 }
