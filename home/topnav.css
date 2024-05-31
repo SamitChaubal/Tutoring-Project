@@ -29,3 +29,17 @@ nav .logo{
 .topnav a.active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  nav .logo {
+     width: 5vw;
+     height: 5vw;
+   }
+ 
+  .topnav a {
+     display: block;
+     text-align: center;
+     font-size: 3vw;
+     padding: 2% 2%;
+   }
+ }
