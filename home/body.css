@@ -37,6 +37,10 @@ body{
     text-align: center;
     margin-top:0;
 }
+.mission-text{
+    position: relative;
+    text-align: center;
+}
 .mission-container h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #333;
