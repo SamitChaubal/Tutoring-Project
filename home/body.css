@@ -84,8 +84,16 @@ body{
 .subjects-container ul{
     margin-top: 1vw;
 }
-
-
+.link-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration:none;
+}
+.link-container h1{
+    font-size: 2vw;
+    padding:5vw;
+}
 
 
 
@@ -103,16 +111,29 @@ body{
         height: 30vw;
     }
     .mission-container h1{
-        font-size: 6vw;
+        font-size: 5vw;
     }
     .mission-container h2{
         margin-left: 15vw;
         margin-right: 15vw;
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .subjects-container {
         height: 38vw;
         width: 45vw;
+    }
+    .mission-container img{
+        width: auto;
+        object-fit: cover;
+        max-height: 35vw;
+    }
+    .mission-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+    
     }
     .subjects-container h1{
         font-size: 5vw;
