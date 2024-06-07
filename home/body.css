@@ -85,16 +85,6 @@ body{
 .subjects-container ul{
     margin-top: 1vw;
 }
-.link-container{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration:none;
-}
-.link-container h1{
-    font-size: 2vw;
-    padding:5vw;
-}
 
 
 
