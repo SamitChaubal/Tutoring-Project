@@ -38,6 +38,7 @@ body{
     width: auto;
     object-fit: cover;
     max-height: 26vw;
+    filter: brightness(75%)
 }
 .mission-text{
     position: absolute;
@@ -49,18 +50,18 @@ body{
 }
 .mission-container h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #333;
     font-size: 4vw;
     text-align: center;
     margin-top:0;
     color:white;
+    /*text-shadow: 0 2px 0 black;*/
 }
 .mission-container h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #333;
     font-size: 2vw;
     text-align: center;
     color:white;
+    /*text-shadow: 0 2px 0 black;*/
 }
 .subjects-container {
     background-color: #ffffff;
