@@ -114,7 +114,7 @@ body{
         width: 45vw;
     }
     .mission-container img{
-        width: 100%;
+        width: 200%;
         object-fit: cover;
         max-height: 35vw;
     }
