@@ -9,8 +9,8 @@ body {
 }
     
 .name-container { grid-area: 2 / 1 / 3 / 7; }
-.logo-container { grid-area: 3 / 1 / 5 / 4; }
-.mission-container, .mission-text, .mission-container img { grid-area: 3 / 4 / 5 / 7; }
+/*.logo-container { grid-area: 3 / 1 / 5 / 4; }*/
+.mission-container, .mission-text, .mission-container img { grid-area: 3 / 1 / 5 / 7; }
 .subjects-container { grid-area: 5 / 1 / 7 / 4; }
 .link-container { grid-area: 5 / 4 / 7 / 7; }
 
@@ -22,7 +22,7 @@ body{
 }
 .name-container h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 7vw;
+    font-size: 8vw;
     color: rgb(0, 0, 0);
     text-align: center;
 }
@@ -35,30 +35,31 @@ body{
     text-align: center;
 }
 .mission-container img{
-    width: auto;
+    width: 80vw;
     object-fit: cover;
     max-height: 26vw;
-    filter: brightness(75%)
+    filter: brightness(75%);
+    object-position: 50% 0;
 }
 .mission-text{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40vw;
+    width: 80vw;
 
 }
 .mission-container h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vw;
+    font-size: 4.5vw;
     text-align: center;
-    margin-top:0;
+    margin-top: -5vw;
     color:white;
     /*text-shadow: 0 2px 0 black;*/
 }
 .mission-container h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2vw;
+    font-size: 2.25vw;
     text-align: center;
     color:white;
     /*text-shadow: 0 2px 0 black;*/
